@@ -8,7 +8,7 @@ const products = [
     brand: 'street 9',
     category: 'Dresses',
     price: 2700,
-    countInStock: 2,
+    countInStock: 0,
     rating: 4.5,
     numReviews: 4,
   },
