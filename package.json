@@ -1,0 +1,22 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "ap project1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahiyaag/project1.git"
+  },
+  "author": "Muskaan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahiyaag/project1/issues"
+  },
+  "homepage": "https://github.com/mahiyaag/project1#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
