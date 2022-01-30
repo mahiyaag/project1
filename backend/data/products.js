@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Tiered Puffed Sleeves Dress',
     image: '/images/dress1.webp',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '2',
     name: 'Women Black Printed Bodycon Dress',
     image: '/images/dress2.webp',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '3',
     name: 'Satin Maxi dress',
     image: '/images/dress3.webp',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '4',
     name: 'Satin Maxi dress',
     image: '/images/dress4.webp',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '5',
     name: 'Women Calf-Length dress',
     image: '/images/dress5.webp',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '6',
     name: 'Regular Crop Top',
     image: '/images/top1.webp',
     description:
@@ -78,7 +72,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '7',
     name: 'Halter Neck fitted Top',
     image: '/images/top2.webp',
     description:
@@ -91,7 +84,6 @@ const products = [
     numReviews: 7,
   },
   {
-    _id: '8',
     name: 'Twisted Cropped Fitted top',
     image: '/images/top3.webp',
     description:
@@ -104,7 +96,6 @@ const products = [
     numReviews: 7,
   },
   {
-    _id: '9',
     name: 'Crop Back styled top',
     image: '/images/top4.webp',
     description:
@@ -117,7 +108,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '10',
     name: 'Crop Back styled top',
     image: '/images/top5.webp',
     description:
@@ -130,7 +120,6 @@ const products = [
     numReviews: 5,
   },
   {
-    _id: '11',
     name: 'Women Flared Jeans',
     image: '/images/pants1.webp',
     description:
@@ -143,7 +132,6 @@ const products = [
     numReviews: 5,
   },
   {
-    _id: '12',
     name: 'Women Relaxed Fit Jeans',
     image: '/images/pants2.webp',
     description:
@@ -156,7 +144,6 @@ const products = [
     numReviews: 7,
   },
   {
-    _id: '13',
     name: 'Women Regular Fit Jeans',
     image: '/images/pants3.webp',
     description:
@@ -169,7 +156,6 @@ const products = [
     numReviews: 5,
   },
   {
-    _id: '14',
     name: 'Women Relaxed Fit High Rise jeans',
     image: '/images/pants4.jpeg',
     description:
@@ -182,7 +168,6 @@ const products = [
     numReviews: 5,
   },
   {
-    _id: '15',
     name: 'Women Bell Bottom Jeans',
     image: '/images/pants5.webp',
     description:
@@ -195,7 +180,6 @@ const products = [
     numReviews: 7,
   },
   {
-    _id: '16',
     name: 'Women Midi A-Line skirt',
     image: '/images/skirt1.webp',
     description:
@@ -208,7 +192,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '17',
     name: 'Floral Lehenga skirt',
     image: '/images/skirt2.webp',
     description:
@@ -221,7 +204,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '18',
     name: 'A-Line Pure Cotton Skirt',
     image: '/images/skirt3.webp',
     description:
@@ -234,7 +216,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '19',
     name: 'Foil Print Maxi skirt',
     image: '/images/skirt4.webp',
     description:
@@ -247,7 +228,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '20',
     name: 'A-Line Long skirt',
     image: '/images/skirt5.webp',
     description:
@@ -260,7 +240,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '21',
     name: 'Women Rapid Dry sports shorts',
     image: '/images/shorts1.webp',
     description:
@@ -273,7 +252,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '22',
     name: 'Women Regular Fit Denim shorts',
     image: '/images/shorts2.jpeg',
     description:
@@ -286,7 +264,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '23',
     name: 'Women capry Shorts',
     image: '/images/shorts3.webp',
     description:
@@ -299,7 +276,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '24',
     name: 'Women Cotton Regular Shorts',
     image: '/images/shorts4.jpeg',
     description:
@@ -312,7 +288,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '25',
     name: 'Women Cardio Training Shorts',
     image: '/images/shorts5.webp',
     description:
@@ -325,7 +300,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '26',
     name: 'Men Olive Green Solid Polo Collar T-shirt',
     image: '/images/tshirt1.jpeg',
     description:
@@ -338,7 +312,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '27',
     name: 'Men Black Brand Logo Printed T-shirt',
     image: '/images/tshirt2.jpeg',
     description:
@@ -351,7 +324,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '28',
     name: 'Men White Mandarin Collar T-shirt',
     image: '/images/tshirt3.webp',
     description:
@@ -365,7 +337,6 @@ const products = [
   },
 
   {
-    _id: '29',
     name: 'Men Navy Blue Striped Mandarin Collar Applique T-shirt',
     image: '/images/tshirt4.webp',
     description:
@@ -378,7 +349,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '30',
     name: 'Men Mauve Polo Collar T-shirt',
     image: '/images/tshirt5.webp',
     description:
@@ -391,7 +361,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '31',
     name: 'Men Olive Green Pure Cotton Cargo Shorts',
     image: '/images/mshorts1.jpeg',
     description:
@@ -404,7 +373,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '32',
     name: 'Men Navy Blue Solid Regular Fit PERFORMANCE KNIT Dry Cell Training Sports Shorts',
     image: '/images/mshorts2.jpeg',
     description:
@@ -417,7 +385,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '33',
     name: 'Men 500 Day Blue Pure Cotton Shorts',
     image: '/images/mshorts3.webp',
     description:
@@ -430,7 +397,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '34',
     name: 'Men Grey Mid-Rise Regular Shorts With Logo Print',
     image: '/images/mshorts4.webp',
     description:
@@ -443,7 +409,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '35',
     name: 'Men White Mid-Rise Regular Shorts',
     image: '/images/mshorts5.webp',
     description:
@@ -456,7 +421,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '36',
     name: 'Men Coral Red Solid Pullover',
     image: '/images/sweater1.jpeg',
     description:
@@ -469,7 +433,6 @@ const products = [
     numReviews: 23,
   },
   {
-    _id: '37',
     name: 'Men Violet Self Design Pullover Sweater',
     image: '/images/sweater2.jpeg',
     description:
@@ -482,7 +445,6 @@ const products = [
     numReviews: 23,
   },
   {
-    _id: '38',
     name: 'Men Green Fine-knit jumper',
     image: '/images/sweater3.webp',
     description:
@@ -496,7 +458,6 @@ const products = [
   },
   
   {
-    _id: '39',
     name: 'Men Green Solid Pullover',
     image: '/images/sweater4.jpeg',
     description:
@@ -510,7 +471,6 @@ const products = [
   },
   
   {
-    _id: '40',
     name: 'Men Grey Melange Solid Pullover',
     image: '/images/sweater5.webp',
     description:
@@ -524,7 +484,6 @@ const products = [
   },
   
   {
-    _id: '41',
     name: 'Men Pink Slim Fit Textured Pure Cotton Formal Shirt',
     image: '/images/shirts1.webp',
     description:
@@ -537,7 +496,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '42',
     name: 'Men Blue Slim Fit Checked Formal Shirt',
     image: '/images/shirts2.jpeg',
     description:
@@ -550,7 +508,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '43',
     name: 'Men Blue Slim Fit Formal Shirt',
     image: '/images/shirts3.webp',
     description:
@@ -563,7 +520,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '44',
     name: 'Men White Slim Fit Opaque Geometric Printed Formal Shirt',
     image: '/images/shirts4.webp',
     description:
@@ -576,7 +532,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '45',
     name: 'Men Pink Solid Premium Cotton Formal Shirt',
     image: '/images/shirts5.jpeg',
     description:
@@ -589,7 +544,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '46',
     name: 'Men Beige Solid Tailored Jacket',
     image: '/images/jacket1.webp',
     description:
@@ -602,7 +556,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '47',
     name: 'Men Olive Green & Black Suede Finish Bomber Jacket',
     image: '/images/jacket2.webp',
     description:
@@ -615,7 +568,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '48',
     name: 'Men Brown & Taupe Solid Reversible Quilted Jacket',
     image: '/images/jacket3.webp',
     description:
@@ -628,7 +580,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '49',
     name: 'Men Black Training or Gym Puffer Jacket',
     image: '/images/jacket4.webp',
     description:
@@ -641,7 +592,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id: '50',
     name: 'Men Black Crop Training or Gym Padded Jacket',
     image: '/images/jacket5.webp',
     description:
