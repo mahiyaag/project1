@@ -15,7 +15,7 @@ const PaymentScreen = () => {
     navigate('/shipping')
   }
 
-  const [paymentMethod, setPaymentMethod] = useState('PayPal')
+  const [paymentMethod, setPaymentMethod] = useState('Credit Card')
 
   const dispatch = useDispatch()
 
@@ -48,7 +48,6 @@ const PaymentScreen = () => {
               id='Cash On Delivery'
               name='paymentMethod'
               value='Cash On Delivery'
-              checked
               onChange={(e) => setPaymentMethod(e.target.value)}
             ></Form.Check>{' '}
             <Form.Check
@@ -57,7 +56,6 @@ const PaymentScreen = () => {
               id='NetBanking'
               name='paymentMethod'
               value='Net Banking'
-              checked
               onChange={(e) => setPaymentMethod(e.target.value)}
             ></Form.Check>{' '}
           </Col>
