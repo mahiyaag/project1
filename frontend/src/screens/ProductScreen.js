@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 import Rating from '../components/Rating'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
+import Meta from '../components/Meta'
 import { useDispatch, useSelector } from 'react-redux'
-import { useParams, Navigate, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import {
   Row,
   Col,
@@ -22,7 +23,7 @@ import {
 import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants'
 import { addToCart } from '../actions/cartActions'
 
-const ProductScreen = ({}) => {
+const ProductScreen = () => {
   const [qty, setQty] = useState(1)
   const [rating, setRating] = useState(0)
   const [comment, setComment] = useState('')
@@ -57,7 +58,9 @@ const ProductScreen = ({}) => {
 
   const addToCartHandler = () => {
     navigate(`/cart/${params.id}?qty=${qty}`)
-    //navigate({ pathname: `/cart/${params.id}?qty=${qty}` })
+  }
+  const addToWishlistHandler = () => {
+    navigate(`/wishlist/${params.id}`)
   }
 
   const submitHandler = (e) => {
@@ -76,6 +79,7 @@ const ProductScreen = ({}) => {
         <Message variant='danger'>{error}</Message>
       ) : (
         <>
+          <Meta title={product.name} />
           <Row>
             <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
@@ -148,6 +152,15 @@ const ProductScreen = ({}) => {
                       disabled={product.countInStock === 0}
                     >
                       Add To Cart
+                    </Button>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <Button
+                      onClick={addToWishlistHandler}
+                      className='btn-black'
+                      type='button'
+                    >
+                      Add To Wishlist
                     </Button>
                   </ListGroupItem>
                 </ListGroup>
