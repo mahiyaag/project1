@@ -5,6 +5,7 @@ import { Row, Col, ListGroup, Image, Form, Button, Card } from 'react-bootstrap'
 import Message from '../components/Message'
 import { addToCart, removeFromCart } from '../actions/cartActions'
 import { useParams, useNavigate } from 'react-router-dom'
+import { addToWishlist } from '../actions/wishlistActions'
 
 const CartScreen = () => {
   const params = useParams()
@@ -31,6 +32,12 @@ const CartScreen = () => {
 
   const checkoutHandler = () => {
     navigate('/login?redirect=/shipping')
+  }
+
+  const moveToWishlistHandler = (id) => {
+    dispatch(removeFromCart(id))
+    dispatch(addToWishlist(id))
+    navigate('/wishlist')
   }
   //const addToCartHandler = () => {
   //navigate(`../cart/${params.id}?quantity=${qty}`)
@@ -79,6 +86,13 @@ const CartScreen = () => {
                       onClick={() => removeFromCartHandler(item.product)}
                     >
                       <i className='fas fa-trash'></i>
+                    </Button>
+                    <Button
+                      type='button'
+                      variant='light'
+                      onClick={() => moveToWishlistHandler(item.product)}
+                    >
+                      <i className='fas fa-heart'></i>
                     </Button>
                   </Col>
                 </Row>

@@ -14,8 +14,8 @@ const Header = () => {
     dispatch(logout())
   }
   return (
-    <header>
-      <Navbar style={{ color: 'red' }} expand='lg' collapseOnSelect>
+    <header style={{ backgroundColor: 'rgba(255, 255, 255, 0)' }}>
+      <Navbar expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>OneStop</Navbar.Brand>

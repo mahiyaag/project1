@@ -66,6 +66,11 @@ const LoginScreen = () => {
           </Link>
         </Col>
       </Row>
+      <Row>
+        <Col>
+          <Button>Sign In Using Google</Button>
+        </Col>
+      </Row>
     </FormContainer>
   )
 }
